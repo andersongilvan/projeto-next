@@ -1,0 +1,38 @@
+.loginPage {
+    width:100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .form {
+        display: flex;
+        flex-direction: column;
+
+        gap: 40px;
+    }
+
+    .label {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        font-weight: bold;
+        color: #414164;
+    }
+    .label span {
+        color: red;
+        position: absolute;
+        margin-top: 60px;
+    }
+    .label input {
+        padding: 10px 30px;
+        border: none;
+        background-color: rgb(209, 221, 217);
+        border-radius: 6px;
+    }
+    .link {
+        font-weight: bold;
+        color: black;
+    }

@@ -1,0 +1,10 @@
+.loginCard{
+    width: 400px;
+    
+    padding: 20px;
+    border-radius: 6px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
